@@ -1,0 +1,32 @@
+section#my-work {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#my-work .work-container {
+  position: relative;
+  min-width: 300%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+section#my-work .work-container .work-topic {
+  height: 100%;
+  margin: .5rem;
+  padding: 1.5rem;
+  background: #0b345a;
+}
+
+section#my-work .work-container .work-topic .work-element {
+  border-left: .25rem solid #cae5ff;
+  margin: .5rem 0;
+  padding: .5rem;
+}
+/*# sourceMappingURL=index.css.map */

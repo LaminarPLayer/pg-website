@@ -1,0 +1,29 @@
+section#home{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  h2{
+    font-size: calc(1rem + 1vw);
+    font-weight: 300;
+
+    .accent{
+      color: #F85A3A;
+      font-weight: normal;
+    }
+  }
+
+  h1{
+    font-size: calc(1rem + 4vw);
+  }
+
+  p{
+    margin: 1rem 0;
+  }
+
+  button{
+    margin: 1rem 0;
+  }
+}

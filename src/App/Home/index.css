@@ -1,0 +1,39 @@
+section#home {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section#home h2 {
+  font-size: calc(1rem + 1vw);
+  font-weight: 300;
+}
+
+section#home h2 .accent {
+  color: #F85A3A;
+  font-weight: normal;
+}
+
+section#home h1 {
+  font-size: calc(1rem + 4vw);
+}
+
+section#home p {
+  margin: 1rem 0;
+}
+
+section#home button {
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=index.css.map */

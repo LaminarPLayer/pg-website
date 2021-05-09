@@ -1,15 +1,32 @@
 header{
-  position: relative;
+  position: fixed;
 
-  height: 4rem;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
-  color: white;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b345a;
+  z-index: 1;
+  transition: box-shadow .5s;
+
+  &.scrolled{
+    box-shadow: 0 0 1rem #0004;
+  }
+
+  nav{
+    position: relative;
+    max-width: 80rem;
+    width: 100%;
+    padding: 1rem;
+  }
 
   h1{
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+
+    b{
+      color: #F85A3A;
+    }
   }
 }

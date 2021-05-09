@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap');
 
-*{
+*, button{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+:root {
+  color-scheme: dark;
+}
+
+body, button, input, textarea {
   font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

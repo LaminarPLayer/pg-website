@@ -1,0 +1,29 @@
+section#my-work{
+  // min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+  .work-container{
+    position: relative;
+    // max-width: 300%;
+    min-width: 300%;
+    // min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .work-topic{
+      height: 100%;
+      margin: .5rem;
+      padding: 1.5rem;
+      // text-align: center;
+      background: #0b345a;
+
+      .work-element{
+        border-left: .25rem solid #cae5ff;
+        margin: .5rem 0;
+        padding: .5rem;
+      }
+    }
+  }
+}

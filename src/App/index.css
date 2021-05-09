@@ -13,6 +13,27 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   min-height: 100vh;
-  background: #0c0b2c;
+  height: 300vh;
+  overflow-x: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0b345a), color-stop(10%, #0b345a), to(#000000));
+  background: linear-gradient(#0b345a, #0b345a 10%, #000000);
+  color: #cae5ff;
+}
+
+.App button {
+  padding: .75rem;
+  background: transparent;
+  color: #cae5ff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: .125rem solid #cae5ff;
+  border-radius: .25rem;
+}
+
+.App section {
+  position: relative;
+  max-width: 80rem;
+  padding: 1rem;
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
