@@ -2,7 +2,6 @@ import React, {useEffect, useCallback, useState} from 'react';
 import './index.css';
 import Logo from '../Logo';
 import {motion} from "framer-motion";
-import { BiArrowToTop } from 'react-icons/bi';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState('')
@@ -27,7 +26,7 @@ const Header = () => {
   return (
     <header className={scrolled}>
       <nav>
-        <BiArrowToTop />↱↾▲△▴NAV≡≣
+        (strona nadal w budowie)
       </nav>
       <motion.ul layout>
 
