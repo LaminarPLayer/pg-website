@@ -13,7 +13,6 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   min-height: 100vh;
-  height: 300vh;
   overflow-x: hidden;
   background: -webkit-gradient(linear, left top, left bottom, from(#0b345a), color-stop(10%, #0b345a), to(#000000));
   background: linear-gradient(#0b345a, #0b345a 10%, #000000);
@@ -22,12 +21,24 @@
 
 .App button {
   padding: .75rem;
+  margin: .25rem;
   background: transparent;
   color: #cae5ff;
   font-weight: bold;
   font-size: 1rem;
   border: .125rem solid #cae5ff;
   border-radius: .25rem;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.App button:hover {
+  border-color: #F85A3A;
+  color: #F85A3A;
+}
+
+.App a {
+  color: #F85A3A;
 }
 
 .App section {

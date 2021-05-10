@@ -34,7 +34,6 @@ const Home = () => {
       </motion.p>
       <motion.button
         variants={homeElements}
-        whileHover={{scale: 1.05}}
       >
         MY WORK
       </motion.button>

@@ -10,7 +10,6 @@ const Logo = () => {
 
   // ON MOUSE MOVE
   const handleMouseMove = useCallback(e => {
-    console.log(e)
     let x, y;
     if(e.type==='mousemove'){
       x=e.x;

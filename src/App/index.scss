@@ -5,19 +5,30 @@
   justify-content: flex-start;
   min-height: 100vh;
   // *******
-  height: 300vh;
+  // height: 300vh;
   overflow-x: hidden;
   background: linear-gradient(#0b345a, #0b345a 10%,#000000);
   color: #cae5ff;
 
   button{
     padding: .75rem;
+    margin: .25rem;
     background: transparent;
     color: #cae5ff;
     font-weight: bold;
     font-size: 1rem;
     border: .125rem solid #cae5ff;
     border-radius: .25rem;
+    transition: .25s;
+
+    &:hover{
+      border-color: #F85A3A;
+      color: #F85A3A;
+    }
+  }
+  
+  a{
+    color: #F85A3A;
   }
 
   section{

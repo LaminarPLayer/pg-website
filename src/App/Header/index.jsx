@@ -29,7 +29,6 @@ const Header = () => {
       <nav>
         <BiArrowToTop />↱↾▲△▴NAV≡≣
       </nav>
-      {/* <h1><b>p</b>iotr<b>g</b>rzegorczyk</h1> */}
       <motion.ul layout>
 
       </motion.ul>
