@@ -1,7 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {motion} from 'framer-motion';
-import { FaGithub } from "react-icons/fa";
-import { BiLinkExternal } from "react-icons/bi";
 import WorkElement from '../WorkElement';
 import './index.css';
 import PnpImg from '../../images/pnp.jpg';

@@ -1,7 +1,7 @@
 import React, {useEffect, useCallback, useState} from 'react';
 import './index.css';
 import Logo from '../Logo';
-import {motion, AnimateSharedLayout } from "framer-motion";
+import {motion} from "framer-motion";
 import { BiArrowToTop } from 'react-icons/bi';
 
 const Header = () => {
