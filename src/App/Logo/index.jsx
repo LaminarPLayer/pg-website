@@ -15,9 +15,15 @@ const Logo = () => {
       x=e.x;
       y=e.y;
     }
-    if(e.type==='touchstart' || e.type === 'touchend'){
+    if(e.type==='touchstart'){
       x=e.changedTouches[0].clientX;
       y=e.changedTouches[0].clientY;
+      setSmile(false);
+    }
+    if(e.type === 'touchend'){
+      x=e.changedTouches[0].clientX;
+      y=e.changedTouches[0].clientY;
+      setSmile(true);
     }
     let rem2px = parseInt(getComputedStyle(document.documentElement).fontSize);
     let windowW = window.innerWidth;
