@@ -7,6 +7,7 @@ const WorkElement = ({info}) => {
   return (
     <div className='work-element'>
       <h3>{info.title}</h3>
+      <h4>{info.date}</h4>
       {info.img}
       <div className={info.sourceLink !== undefined  ? "btn-links" : "btn-links no-git"}>
         <a href={info.link}>

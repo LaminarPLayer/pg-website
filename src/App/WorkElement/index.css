@@ -15,7 +15,12 @@
 }
 
 .work-element h3 {
-  padding: 1rem 1rem;
+  margin: 1rem 0 .125rem 0;
+}
+
+.work-element h4 {
+  margin: .125rem 0 1rem 0;
+  font-weight: normal;
 }
 
 .work-element img {
