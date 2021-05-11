@@ -14,8 +14,8 @@
           justify-content: flex-start;
   min-height: 100vh;
   overflow-x: hidden;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0b345a), color-stop(10%, #0b345a), to(#000000));
-  background: linear-gradient(#0b345a, #0b345a 10%, #000000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0b345a), color-stop(10%, #0b345a), to(#000a13));
+  background: linear-gradient(#0b345a, #0b345a 10%, #000a13);
   color: #cae5ff;
 }
 
@@ -28,8 +28,8 @@
   font-size: 1rem;
   border: .125rem solid #cae5ff;
   border-radius: .25rem;
-  -webkit-transition: .25s;
-  transition: .25s;
+  -webkit-transition: .125s;
+  transition: .125s;
 }
 
 .App button:hover {
@@ -38,6 +38,12 @@
 }
 
 .App a {
+  color: #cae5ff;
+  -webkit-transition: .125s;
+  transition: .125s;
+}
+
+.App a:hover {
   color: #F85A3A;
 }
 

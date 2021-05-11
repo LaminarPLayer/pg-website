@@ -8,17 +8,17 @@ const WorkElement = ({info}) => {
     <div className='work-element'>
       <h3>{info.title}</h3>
       {info.img}
-      <div className="btn-links">
+      <div className={info.sourceLink !== undefined  ? "btn-links" : "btn-links no-git"}>
         <a href={info.link}>
           <button>
             <BiLinkExternal />
           </button>
         </a>
-        <a href={info.sourceLink}>
+        {info.sourceLink !== undefined  ? <a href={info.sourceLink}>
           <button>
             <FaGithub />
           </button>
-        </a>
+        </a> : ''}
       </div>
       {info.description}
     </div>

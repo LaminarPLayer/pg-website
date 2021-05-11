@@ -7,7 +7,7 @@
   // *******
   // height: 300vh;
   overflow-x: hidden;
-  background: linear-gradient(#0b345a, #0b345a 10%,#000000);
+  background: linear-gradient(#0b345a, #0b345a 10%,#000a13);
   color: #cae5ff;
 
   button{
@@ -19,7 +19,7 @@
     font-size: 1rem;
     border: .125rem solid #cae5ff;
     border-radius: .25rem;
-    transition: .25s;
+    transition: .125s;
 
     &:hover{
       border-color: #F85A3A;
@@ -28,7 +28,12 @@
   }
   
   a{
-    color: #F85A3A;
+    color: #cae5ff;
+    transition: .125s;
+
+    &:hover{
+      color: #F85A3A;
+    }
   }
 
   section{

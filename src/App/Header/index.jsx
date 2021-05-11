@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className={scrolled}>
       <nav>
-        (strona nadal w budowie)
+        still in <br /> development
       </nav>
       <motion.ul layout>
 

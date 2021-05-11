@@ -12,12 +12,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: .75rem 0;
-  border-top: .125rem solid #cae5ff;
 }
 
 .work-element h3 {
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .work-element img {
@@ -36,6 +34,11 @@
   padding: .5rem .75rem;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+}
+
+.work-element .btn-links.no-git {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
 }
 
 .work-element .btn-links a {

@@ -5,11 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: .75rem 0;
-  border-top: .125rem solid #cae5ff;
+  // margin: .75rem 0;
+  // border-top: .125rem solid #cae5ff;
 
   h3{
-    padding: .5rem 1rem;
+    padding: 1rem 1rem;
   }
   img{
     width: 100%;
@@ -26,6 +26,10 @@
     padding: .5rem .75rem;
     grid-template-columns: 1fr 1fr;
     
+    &.no-git{
+      grid-template-columns: 1fr;
+    }
+
     a{
       width: 100%;
       padding: .5rem;

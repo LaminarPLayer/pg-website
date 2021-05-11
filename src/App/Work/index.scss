@@ -1,8 +1,14 @@
+
+h2#my-works{
+  margin: .75rem 0;
+}
+
 section#my-work{
   // min-height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
+  max-width: 30rem;
   
   .work-container{
     position: relative;
@@ -12,7 +18,7 @@ section#my-work{
     // display: grid;
     // grid-template-columns: repeat(3, 1fr);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 
 
     .work-topic{
@@ -23,16 +29,11 @@ section#my-work{
       width: 100%;
       // height: 100%;
       margin: .5rem;
-      margin-top: 1.5rem;
+      // margin-top: 1.5rem;
       // padding: 1.5rem;
       border-radius: .25rem;
       // text-align: center;
       background: #0b345a;
-
-      &#dev{
-        // border: .125rem solid #F85A3A;
-        margin-top: .5rem;
-      }
 
       h2{
         margin-top: .5rem;

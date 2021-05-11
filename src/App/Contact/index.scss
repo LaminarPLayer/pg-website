@@ -1,0 +1,15 @@
+section#contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 5rem;
+  min-height: 85vh;
+
+  &>p{
+    margin-top: .75rem;
+  }
+  &>a{
+    margin-top: .25rem;
+  }
+}

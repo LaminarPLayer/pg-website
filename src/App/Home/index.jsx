@@ -30,13 +30,11 @@ const Home = () => {
       <motion.h1 variants={homeElements}>Piotr Grzegorczyk</motion.h1>
       <motion.h2 variants={homeElements}>and I make <span className="accent">websites</span>.</motion.h2>
       <motion.p variants={homeElements}>
-        I'm a front-end developer.
+        See my projects below.
       </motion.p>
-      <motion.button
-        variants={homeElements}
-      >
-        MY WORK
-      </motion.button>
+      <motion.div variants={homeElements}>
+        <a href="#contact"><button>CONTACT</button></a>
+      </motion.div>
     </motion.section>
   )
 }
