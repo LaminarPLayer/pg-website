@@ -1,7 +1,7 @@
 import React, {useEffect, useCallback, useState} from 'react';
 import './index.css';
 import Logo from '../Logo';
-import {motion} from "framer-motion";
+// import {motion} from "framer-motion";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState('')
@@ -25,12 +25,13 @@ const Header = () => {
 
   return (
     <header className={scrolled}>
-      <nav>
+      <div className='side left-side'>
         still in <br /> development
-      </nav>
-      <motion.ul layout>
+      </div>
+      <div className='side right-side'>
+        looks best<br />on mobile
+      </div>
 
-      </motion.ul>
       <Logo />
     </header>
   )

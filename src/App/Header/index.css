@@ -5,9 +5,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -24,12 +24,16 @@ header.scrolled {
           box-shadow: 0 0 1rem #0004;
 }
 
-header nav {
+header .side {
   position: relative;
   max-width: 80rem;
   width: 100%;
   padding: 1rem;
   color: #cae5ff40;
+}
+
+header .side.right-side {
+  text-align: right;
 }
 
 header h1 {

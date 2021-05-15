@@ -4,7 +4,7 @@ header{
   height: 5rem;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background: #0b345a;
   z-index: 1;
@@ -14,12 +14,16 @@ header{
     box-shadow: 0 0 1rem #0004;
   }
 
-  nav{
+  .side{
     position: relative;
     max-width: 80rem;
     width: 100%;
     padding: 1rem;
     color: #cae5ff40;
+
+    &.right-side{
+      text-align: right;
+    }
   }
 
   h1{

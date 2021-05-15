@@ -15,6 +15,11 @@ const Logo = () => {
       x=e.x;
       y=e.y;
     }
+    if(e.type==='touchmove'){
+      x=e.changedTouches[0].clientX;
+      y=e.changedTouches[0].clientY;
+      setSmile(false);
+    }
     if(e.type==='touchstart'){
       x=e.changedTouches[0].clientX;
       y=e.changedTouches[0].clientY;
@@ -46,11 +51,13 @@ const Logo = () => {
 
   useEffect(() => {
     window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('touchmove', handleMouseMove);
     window.addEventListener('touchstart', handleMouseMove);
     window.addEventListener('touchend', handleMouseMove);
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('touchmove', handleMouseMove);
       window.removeEventListener('touchstart', handleMouseMove);
       window.removeEventListener('touchend', handleMouseMove);
     };

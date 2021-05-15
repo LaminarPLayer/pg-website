@@ -36,7 +36,7 @@ const Work = () => {
     date: '(Aug 2020 – Sep 2020)',
     link: "https://strona-platform.netlify.app/",
     // sourceLink: "/",
-    description: <p>A website for a company manufacturing platforms floating on the water. Due to change of company needs the website had not been finished. Built with HTML, CSS and vanilla JavaScript. The animated logo was created using Figma and some code-based SVG modifications.</p>
+    description: <p>A website for a company manufacturing platforms floating on water. Due to change of company needs the website had not been finished. Built with HTML, CSS and vanilla JavaScript. The logo was created using Figma and some code-based SVG modifications.</p>
   }
 
   const pgw = {
