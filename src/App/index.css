@@ -30,6 +30,7 @@
   border-radius: .25rem;
   -webkit-transition: .125s;
   transition: .125s;
+  cursor: pointer;
 }
 
 .App button:hover {
