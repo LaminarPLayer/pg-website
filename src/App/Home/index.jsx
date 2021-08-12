@@ -28,7 +28,7 @@ const Home = () => {
     >
       <motion.h2 variants={homeElements}>My name is</motion.h2>
       <motion.h1 variants={homeElements}>Piotr Grzegorczyk</motion.h1>
-      <motion.h2 variants={homeElements}>and I make <span className="accent">websites</span>.</motion.h2>
+      <motion.h2 variants={homeElements}>and I am a <span className="accent">web-developer</span>.</motion.h2>
       <motion.p variants={homeElements}>
         See my projects below.
       </motion.p>
